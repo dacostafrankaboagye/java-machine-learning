@@ -23,17 +23,17 @@ To classify real emails using the spam filter model trained on spambase.arff, yo
 
 ## Example Formulae
 - **Word Frequency:**
-  \[
-  \text{word\_freq\_X} = \frac{\text{count of X}}{\text{total words}} \times 100
-  \]
+  ```
+  word_freq_X = (count of X / total words) * 100
+  ```
 - **Character Frequency:**
-  \[
-  \text{char\_freq\_Y} = \frac{\text{count of Y}}{\text{total characters}} \times 100
-  \]
+  ```
+  char_freq_Y = (count of Y / total characters) * 100
+  ```
 - **Capital Run Average:**
-  \[
-  \text{average} = \frac{\text{total capital run length}}{\text{number of runs}}
-  \]
+  ```
+  average = total capital run length / number of runs
+  ```
 
 ## Practical Tips
 - Always preprocess the email (e.g., convert to lowercase) for consistent counting.
